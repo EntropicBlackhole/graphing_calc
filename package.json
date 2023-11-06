@@ -1,0 +1,29 @@
+{
+  "name": "graphing_calc",
+  "version": "1.0.0",
+  "description": "Basic graphing calculator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ./src/localhost/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntropicBlackhole/graphing_calc.git"
+  },
+  "keywords": [
+    "graph",
+    "math",
+    "calculator"
+  ],
+  "author": "EntropicBlackhole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EntropicBlackhole/graphing_calc/issues"
+  },
+  "homepage": "https://github.com/EntropicBlackhole/graphing_calc#readme",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "express": "^4.18.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
